@@ -9,10 +9,10 @@ https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data
 
 
 The data set contains a response variable, and many predictors variables (features). The response variable is a binary variable representing 
-whether an individual has breast cancer or not. A value of 1 corresponds to a positive result (the individual has heart disease) and a value 
-of 0 corresponds to a negative (the individual does not have heart disease). 
+whether the tumor within an individual is benign or malignant. A value of 1 corresponds to a positive result (the tumor is malignant) and a value 
+of 0 corresponds to a negative (the tumor is benign). 
 
-There are a variety of other variables that were deemed key indicators by the CDC, and each one can be found described in detail when viewing the 
+There are a multitude of variables that consist of tumor measurements, and each one can be found described in detail when viewing the 
 Kaggle link provided above. 
 
 -------------------------------
