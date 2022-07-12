@@ -32,3 +32,4 @@ failing to detect cases of breast cancer would be more detrimental than falsely 
 Additional Info ---------------
 -------------------------------
 
+Many, if not the majority, of the predictors/features were correlated with one another, which posed an issue in fitting a logistic regression model. In the preliminary model, using all predictors, most of the significance tests (with null hypothesis stating the predictor coefficient = 0) resulted in P-Values far above our designated alpha = .05 threshold, i.e. the predictor variables/features were insignificant. This was counterintuitive, especially since we determined that many of the predictors were highly correlated with the class variable/output variable. Consequently, Principal Compenent Analysis (PCA) was performed on the training data set, and this refining of predictors helped identify useful information to more adequately predict the class variable, resulting in a more suitable model. 
